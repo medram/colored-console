@@ -16,9 +16,9 @@ if  __name__== '__main__':
 	logger.error('Hellow World!')
 ```
 
-![](https://raw.githubusercontent.com/medram/colored-console/imgs/colored_1.PNG)
+![](https://raw.githubusercontent.com/medram/colored-console/master/imgs/colored_1.PNG)
 
-![](https://raw.githubusercontent.com/medram/colored-console/imgs/colored_2.PNG)
+![](https://raw.githubusercontent.com/medram/colored-console/master/imgs/colored_2.PNG)
 
 ## Make Your Format
 
@@ -38,9 +38,9 @@ if  __name__== '__main__':
 	logger.error('Hellow World!')
 ```
 
-![](https://raw.githubusercontent.com/medram/colored-console/imgs/colored_3.PNG)
+![](https://raw.githubusercontent.com/medram/colored-console/master/imgs/colored_3.PNG)
 
-![](https://raw.githubusercontent.com/medram/colored-console/imgs/colored_4.PNG)
+![](https://raw.githubusercontent.com/medram/colored-console/master/imgs/colored_4.PNG)
 
 ## Bold Font
 
@@ -60,7 +60,7 @@ if  __name__== '__main__':
 	logger.error('Hellow World!')
 ```
 
-![](https://raw.githubusercontent.com/medram/colored-console/imgs/colored_5.PNG)
+![](https://raw.githubusercontent.com/medram/colored-console/master/imgs/colored_5.PNG)
 
 ## Colored Background
 
@@ -80,4 +80,4 @@ if  __name__== '__main__':
 	logger.error('Hellow World!')
 ```
 
-![](https://raw.githubusercontent.com/medram/colored-console/imgs/colored_6.PNG)
+![](https://raw.githubusercontent.com/medram/colored-console/master/imgs/colored_6.PNG)
