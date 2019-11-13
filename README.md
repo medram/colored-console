@@ -1,6 +1,7 @@
-# Colored-Console
+# MRLogger-Colored-Console
 Colored-Console is good to show nice looking by coloring console messages.
 it supports just linux & git bash.
+I hope that will helps someone :-)
 
 ```
 from MRLogger import init_logger
