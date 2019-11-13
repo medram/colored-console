@@ -12,7 +12,7 @@ BOLD_SEQ = "\033[1m"
 
 COLORS = {
 	'DEBUG': GREY,
-	'INFO': BLUE,
+	'INFO': CYAN,
 	'WARNING': YELLOW,
 	'ERROR': RED,
 	'CRITICAL': RED
@@ -45,10 +45,11 @@ class ColoredFormatter(logging.Formatter):
 			result = colorate_message(result, color=COLORS[record.levelname], use_color=self.use_color)
 		return result
 
-def init_logger(colored=True, level=logging.DEBUG, format=FORMAT):
+def init_logger(colored=True, level=logging.DEBUG, format=FORMAT, force=False):
 	logger = None
 
-	colored = colored if sys.platform != 'win32' else False
+	if not force:
+		colored = colored if sys.platform != 'win32' else False
 
 	logger = logging.getLogger(name='my_logger')
 	logger.setLevel(level)
