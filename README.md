@@ -2,7 +2,7 @@
 Colored-Console is good to show nice looking by coloring console messages.
 it supports just linux & git bash.
 
-"""
+```
 from MRLogger import init_logger
 
 if  __name__== '__main__':
@@ -14,7 +14,7 @@ if  __name__== '__main__':
 	logger.info('Hellow World!')
 	logger.warning('Hellow World!')
 	logger.error('Hellow World!')
-"""
+```
 
 ![](https://raw.githubusercontent.com/medram/colored-console/imgs/colored_1.PNG)
 
@@ -22,7 +22,7 @@ if  __name__== '__main__':
 
 ## Make Your Format
 
-"""
+```
 from MRLogger import init_logger
 
 if  __name__== '__main__':
@@ -36,7 +36,7 @@ if  __name__== '__main__':
 	logger.info('Hellow World!')
 	logger.warning('Hellow World!')
 	logger.error('Hellow World!')
-"""
+```
 
 ![](https://raw.githubusercontent.com/medram/colored-console/imgs/colored_3.PNG)
 
@@ -44,7 +44,7 @@ if  __name__== '__main__':
 
 ## Bold Font
 
-"""
+```
 from MRLogger import init_logger
 
 if  __name__== '__main__':
@@ -58,13 +58,13 @@ if  __name__== '__main__':
 	logger.info('Hellow World!')
 	logger.warning('Hellow World!')
 	logger.error('Hellow World!')
-"""
+```
 
 ![](https://raw.githubusercontent.com/medram/colored-console/imgs/colored_5.PNG)
 
 ## Colored Background
 
-"""
+```
 from MRLogger import init_logger
 
 if  __name__== '__main__':
@@ -78,6 +78,6 @@ if  __name__== '__main__':
 	logger.info('Hellow World!')
 	logger.warning('Hellow World!')
 	logger.error('Hellow World!')
-"""
+```
 
 ![](https://raw.githubusercontent.com/medram/colored-console/imgs/colored_6.PNG)
